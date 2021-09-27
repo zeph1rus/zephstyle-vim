@@ -50,6 +50,12 @@ exe 'hi link Special ErrorMsg'
 exe 'hi link Tag Keyword'
 exe 'hi link Statement Keyword'
 
+" yaml/ansible
+exe 'hi link yamlBlockMappingKey Keyword'
+exe 'hi link yamlFlowString String'
+exe 'hi link yamlFlowStringDelimiter String'
+exe 'hi link yamlKeyValueDelimiter Type'
+
 " python
 exe 'hi link pythonNumber Constant'
 " vim maps
